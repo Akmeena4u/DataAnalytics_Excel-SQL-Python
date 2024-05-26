@@ -1,4 +1,3 @@
-I'd be glad to explain Exception Handling in Python:
 
 **Exception Handling: Gracefully Managing Errors**
 
@@ -62,7 +61,9 @@ divide(10, 0)  # Output: Error: Cannot divide by zero.
 - The `finally` block is useful for resource management or cleanup tasks.
 
 By effectively using exception handling, you can write more robust and user-friendly Python programs that gracefully handle unexpected errors.
+
 ---
+## Custom Error Handling
 
 In Python, exception handling allows you to manage errors (exceptions) that may arise during program execution. While there are many built-in exceptions, you can also create your own custom exceptions to signal specific error conditions within your code.
 
