@@ -1,4 +1,3 @@
-Here's the Markdown file content based on your provided text:
 
 
 # What is Programming
