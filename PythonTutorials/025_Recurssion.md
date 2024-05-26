@@ -1,5 +1,5 @@
-#Recursion in python : Recursion is the process of defining something in terms of itself.
-
+## Recursion in python : Recursion is the process of defining something in terms of itself.
+```python
 def factorial(num): 
     if (num == 1 or num == 0):
         return 1
@@ -10,3 +10,4 @@ def factorial(num):
 num = 7; 
 print("Factorial: ",factorial(num))
 #Output: Factorial:  5040
+```
