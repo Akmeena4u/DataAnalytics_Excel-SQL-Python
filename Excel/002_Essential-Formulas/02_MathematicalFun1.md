@@ -52,6 +52,16 @@ In this lecture, we will cover some basic mathematical functions in Excel.
 3. **Extending RANK.AVG Formula:**
    - Drag to apply the ranking formula to other cells.
 
+
+## Difference between RANK, RANK.AVG and RANK.EQ
+There are three versions of the RANK formula that you can use in MS Excel
+
+RANK was available in the older versions of excel. We can still use it, probably it will not be available in the coming versions of Excel. There are two new versions of Rank now - RANK.EQ and RANK.AVG. Below example may clear the difference between these two -
+
+For values 5,6,6,7 -RANK and RANK.EQ will return ranks as 1,2,2,4 (Same rank for same values) and RANK.AVG will return ranks as 1 ,2.5 ,2.5 ,4. (Average of 2nd and 3rd rank). Because RANK.AVG takes average of the ranks where values are same, we often see decimal digits in ranks calculated using this formula.
+
+If all the values in the list are unique, all the three formulas assign same ranks in that case.
+
 ## Summary
 - **Formulas vs. Functions:** Understand the difference and when to use each.
 - **Using Functions:** Learn how to use SUM, MIN, MAX, and AVERAGE functions.
