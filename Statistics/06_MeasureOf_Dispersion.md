@@ -1,3 +1,4 @@
+
 # Measures of Dispersion
 
 Measures of dispersion tell us about the spread of the data. We will be discussing three measures of dispersion:
@@ -32,16 +33,24 @@ Variance is the average of the squared differences from the mean. Standard devia
 - **Sample Mean (x̄)**: The mean of a sample from the population.
 
 ### Population Variance (σ²)
-\[ \sigma^2 = \frac{\sum (x - \mu)^2}{N} \]
+```
+σ² = Σ (x - μ)² / N
+```
 
 ### Sample Variance (s²)
-\[ s^2 = \frac{\sum (x - \overline{x})^2}{n - 1} \]
+```
+s² = Σ (x - x̄)² / (n - 1)
+```
 
 ### Population Standard Deviation (σ)
-\[ \sigma = \sqrt{\sigma^2} \]
+```
+σ = √(σ²)
+```
 
 ### Sample Standard Deviation (s)
-\[ s = \sqrt{s^2} \]
+```
+s = √(s²)
+```
 
 ### Example
 Let's calculate the standard deviation for the following data:
@@ -49,16 +58,39 @@ Let's calculate the standard deviation for the following data:
 Values: 10, 12, 23, 23, 16, 34, 7, 12, 22, 25, 27, 24, 17, 18, 15, 26, 29, 30, 28, 20, 19, 14, 18, 21
 
 1. Calculate the mean (x̄):
-\[ \overline{x} = \frac{10 + 12 + 23 + 23 + 16 + 34 + 7 + 12 + 22 + 25 + 27 + 24 + 17 + 18 + 15 + 26 + 29 + 30 + 28 + 20 + 19 + 14 + 18 + 21}{24} = 24.875 \]
+```
+x̄ = (10 + 12 + 23 + 23 + 16 + 34 + 7 + 12 + 22 + 25 + 27 + 24 + 17 + 18 + 15 + 26 + 29 + 30 + 28 + 20 + 19 + 14 + 18 + 21) / 24
+  = 24.875
+```
 
 2. Calculate the variance (s²):
-\[ s^2 = \frac{\sum (x - \overline{x})^2}{n - 1} \]
+```
+s² = Σ (x - x̄)² / (n - 1)
+```
 
 3. For each value, calculate the difference from the mean, square it, and sum these values:
-\[ s^2 = \frac{(10-24.875)^2 + (12-24.875)^2 + \cdots + (21-24.875)^2}{24 - 1} = \frac{1624.625}{23} = 67.69 \]
+```
+s² = [(10-24.875)² + (12-24.875)² + ... + (21-24.875)²] / 23
+   = 1624.625 / 23
+   = 67.69
+```
 
 4. Calculate the standard deviation (s):
-\[ s = \sqrt{67.69} = 8.23 \]
+```
+s = √(67.69)
+  = 8.23
+```
 
 ### Interpretation
 A larger standard deviation indicates a wider dispersion of data from the mean. If another set of 24 observations has a similar mean but a lower standard deviation, it means that data has less dispersion and values are closer to the mean. Conversely, a larger standard deviation indicates that values are further from the mean.
+
+## Conclusion
+That's all for this video lecture on measures of dispersion. In the next video, we will discuss the measures of dispersion.
+```
+
+For more complex formulas, you can use a LaTeX editor to create images of the formulas and embed them in the Markdown file like this:
+
+```markdown
+![Population Variance](url_to_image)
+```
+
