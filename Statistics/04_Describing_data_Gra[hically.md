@@ -1,7 +1,7 @@
 
 # Summarizing Data with Frequency Distribution
 
-In this video, we will learn how to summarize data by creating frequency distribution tables for qualitative and quantitative data. We will also see how to convert these tables into bar charts and how to construct histograms. This is part of descriptive statistics where we describe the distribution of our data.
+In this , we will learn how to summarize data by creating frequency distribution tables for qualitative and quantitative data. We will also see how to convert these tables into bar charts and how to construct histograms. This is part of descriptive statistics where we describe the distribution of our data.
 
 ## Frequency Distribution
 
