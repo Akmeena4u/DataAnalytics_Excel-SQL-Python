@@ -1,3 +1,4 @@
+
 # Summarizing Data with Frequency Distribution
 
 In this video, we will learn how to summarize data by creating frequency distribution tables for qualitative and quantitative data. We will also see how to convert these tables into bar charts and how to construct histograms. This is part of descriptive statistics where we describe the distribution of our data.
@@ -19,10 +20,16 @@ Such data is raw data. When you take out these branches as categories and find t
 ### Relative Frequency
 
 Relative frequency represents the contribution of each category to the total. It is calculated as:
-\[ \text{Relative Frequency} = \frac{\text{Frequency of Category}}{\text{Sum of All Frequencies}} \]
+
+```
+Relative Frequency = (Frequency of Category) / (Sum of All Frequencies)
+```
 
 For example, if 60 students are in Biotechnology:
-\[ \text{Relative Frequency} = \frac{60}{420} = 0.14 \text{ or } 14.2\% \]
+
+```
+Relative Frequency = 60 / 420 = 0.14 or 14.2%
+```
 
 ### Bar Chart
 
@@ -39,7 +46,11 @@ For quantitative data, we create buckets and assign the frequency of occurrence 
 Suppose we have a list of students and their science marks. To group this data:
 1. Decide the number of buckets (usually between 5 and 20)
 2. Determine class width using the formula:
-\[ \text{Class Width} = \frac{\text{Maximum Value} - \text{Minimum Value}}{\text{Number of Classes}} \]
+
+```
+Class Width = (Maximum Value - Minimum Value) / Number of Classes
+```
+
 3. Starting with the minimum value, keep adding the class width to get the buckets
 4. Assign the number of observations belonging to each bucket
 
@@ -48,7 +59,11 @@ Suppose we have a list of students and their science marks. To group this data:
 Given customer ages:
 - Ages: 10, 14, 18, 22, 26, 30, 34
 - Number of buckets: 5
-- Class width: \(\frac{34 - 7}{5} = 5.4\) (rounded to 5)
+- Class width:
+
+```
+(34 - 7) / 5 = 5.4 (rounded to 5)
+```
 
 Buckets:
 - 7 to 12
@@ -72,7 +87,10 @@ A histogram represents the frequency distribution of quantitative data. It is si
 ## Normal Distribution
 
 Normal distribution occurs frequently in recorded data and is assumed in many analyses. It is represented by:
-\[ f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}} \]
+
+```
+f(x) = (1 / (σ * sqrt(2π))) * exp(-((x - μ)^2) / (2σ^2))
+```
 
 ### Properties
 
@@ -82,3 +100,4 @@ Normal distribution occurs frequently in recorded data and is assumed in many an
 
 In practical terms, the value at the mean has the maximum probability of occurrence, and as you go farther from the mean, the probability decreases.
 
+---
