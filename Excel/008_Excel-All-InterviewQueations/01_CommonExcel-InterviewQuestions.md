@@ -1,5 +1,6 @@
-## Q: What you know about Excel?
-A: - Excel is a powerful spreadsheet application developed by Microsoft. it widely used for Data organization, Analysis and visualization
+## Q: What do you know about Excel?
+A: - Excel is a powerful spreadsheet application developed by Microsoft. it widely used for Data organization, Analysis and visualization.
+jj
     - dd
     -dff
 
