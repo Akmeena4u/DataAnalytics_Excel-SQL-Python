@@ -1,8 +1,6 @@
 ## Q: What do you know about Excel?
-A: - Excel is a powerful spreadsheet application developed by Microsoft. it widely used for Data organization, Analysis and visualization.
-jj
-    - dd
-    -dff
+A: - Excel is a powerful spreadsheet application developed by Microsoft. it is widely used for Data organization, Analysis, and visualization.
+A: - Spreadsheet - In this data organized in rows and columns within grid format Here rectangular boxes- cells, Bottom tabs- worksheet , Whole window- workbook
 
 
 ## Q: How do I add a question and answer in a GitHub Markdown file?
